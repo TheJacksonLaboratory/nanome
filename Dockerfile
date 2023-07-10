@@ -6,7 +6,7 @@
 
 # Set the base image to Ubuntu 18.04 and NVIDIA GPU from https://hub.docker.com/r/nvidia/cuda
 # or from https://ngc.nvidia.com/catalog/containers/nvidia:cuda/tags
-FROM nvidia/cuda:11.6.0-base-ubuntu18.04
+FROM nvidia/cuda:11.6.2-base-ubuntu18.04
 
 # Author and maintainer
 MAINTAINER Yang Liu <yang.liu@jax.org>
