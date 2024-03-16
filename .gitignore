@@ -62,3 +62,4 @@ testdemo.py
 /test_data/multi_fast5_demo.tar.gz
 /test_data/na12878_chr22_p3_100.tar.gz
 /test_data/NA19240_RRBS_ENCFF000LZS_chr22.txt.gz
+/test.nf

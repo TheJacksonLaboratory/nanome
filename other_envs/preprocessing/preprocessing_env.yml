@@ -1,0 +1,21 @@
+# @Author   : Yang Liu
+# @FileName : preprocessing_env.yml
+# @Software : NANOME project
+# @Organization : JAX Li Lab
+# @Website  : https://github.com/LabShengLi/nanome
+name: preprocessing
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - parallel
+  - h5py
+  - numpy
+  - pip:
+      - ont-fast5-api
+      - pod5
+
+# how to use:
+# conda env create --name preprocessing --file=preprocessing_env.yml
